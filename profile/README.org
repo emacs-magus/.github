@@ -1,0 +1,15 @@
+* About
+The "emacs-magus" organization hosts Emacs init.el configuration utility packages.  The packages here are meant in part to replace [[https://github.com/noctuid/general.el][general.el]] with smaller, more focused packages, but some also provide novel functionality.
+
+* Replacing Unpackaged Doom Emacs Functionality
+Doom has a lot of useful functionality that is unfortunately not available to non-Doom users without copying code.
+
+Here are packages that replace previously unpackaged Doom functionality:
+- [[https://github.com/emacs-magus/familiar][familiar.el]] - An alternative to general.el and ~map!~ (~map!~ is built on general.el)
+- [[https://github.com/ajgrf/on.el][on.el]] - Provides hooks added by Doom like =on-switch-buffer-hook=, =on-switch-window-hook=, and =on-switch-frame-hook=
+- [[https://github.com/emacs-magus/satch.el][satch.el]] - Provides setting, hook, and advice helpers (including transient hooks and advice like found in Doom)
+- [[https://github.com/emacs-magus/once][once]] - Provides alternatives to Doom's =:after-call=, =:defer-incrementally=, ~defer-until!~, etc. for delaying loading (or configuring) packages until some condition is met
+- [[https://gitlab.com/jjzmajic/handle][handle]] - Allows having a single command to do things like start a repl, evaluate code, pull up documentation, etc.; you run ~handle~ to associate the correct functions with each feature for a major mode
+- templates - There is [[https://github.com/mineo/yatemplate][yatemplate]], but it unfortunately does not currently support a lot of the things Doom's template system does (e.g. complex conditional activation)
+
+There are also the obvious packages that like [[https://github.com/seagle0128/doom-modeline][doom-modeline]] and [[https://github.com/doomemacs/themes][doom-themes]].
