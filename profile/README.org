@@ -5,7 +5,7 @@ The "emacs-magus" organization hosts Emacs init.el configuration utility package
 Doom has a lot of useful functionality that is unfortunately not available to non-Doom users without copying code.
 
 Here are packages that replace previously unpackaged Doom functionality:
-- [[https://github.com/emacs-magus/familiar][familiar.el]] - An alternative to general.el and ~map!~ (~map!~ is built on general.el)
+- [[https://github.com/emacs-magus/familiar][familiar]] - An alternative to general.el and ~map!~ (~map!~ is built on general.el)
 - [[https://github.com/ajgrf/on.el][on.el]] - Provides hooks added by Doom like =on-switch-buffer-hook=, =on-switch-window-hook=, and =on-switch-frame-hook=
 - [[https://github.com/emacs-magus/satch.el][satch.el]] - Provides setting, hook, and advice helpers (including transient hooks and advice like found in Doom)
 - [[https://github.com/emacs-magus/once][once]] - Provides alternatives to Doom's =:after-call=, =:defer-incrementally=, ~defer-until!~, etc. for delaying loading (or configuring) packages until some condition is met
@@ -13,3 +13,14 @@ Here are packages that replace previously unpackaged Doom functionality:
 - templates - There is [[https://github.com/mineo/yatemplate][yatemplate]], but it unfortunately does not currently support a lot of the things Doom's template system does (e.g. complex conditional activation)
 
 There are also the obvious packages that like [[https://github.com/seagle0128/doom-modeline][doom-modeline]] and [[https://github.com/doomemacs/themes][doom-themes]].
+
+* Replacing General.el
+- [[https://github.com/emacs-magus/familiar][familiar]] - Replaces general.el key definers
+  - [[https://github.com/emacs-magus/imp][imp]] - Evil support for familiar
+- [[https://github.com/emacs-magus/arcana][arcana]] - Replaces general.el key definition helpers (~general-key~, ~general-simulate-key~, ~general-key-dispatch~, ~general-predicate-dispatch~, etc.)
+- [[https://github.com/emacs-magus/satch.el][satch.el]] - Replaces general.el non-keybinding configuration utilities (setting, hook, and advice helpers)
+- [[https://github.com/emacs-magus/once][once]] - Replaces general.el's deferred evaluation utilities (which were mostly placeholders or unimplemented)
+- ? - Replaces general-override-mode
+
+* Other
+- [[https://github.com/emacs-magus/foundation][foundation]] - My personal setup.el keywords that are not found in other packages (like satch.el and familiar)
