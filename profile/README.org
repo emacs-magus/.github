@@ -17,6 +17,7 @@ There are also the obvious packages that like [[https://github.com/seagle0128/do
 * Replacing General.el
 - [[https://github.com/emacs-magus/familiar][familiar]] - Replaces general.el key definers
   - [[https://github.com/emacs-magus/imp][imp]] - Evil support for familiar
+  - leto.el - "Instructor" to generate a minimal/readable expansion of familiar forms, so you can see what code they will run
 - [[https://github.com/emacs-magus/arcana][arcana]] - Replaces general.el key definition helpers (~general-key~, ~general-simulate-key~, ~general-key-dispatch~, ~general-predicate-dispatch~, etc.)
 - [[https://github.com/emacs-magus/satch.el][satch.el]] - Replaces general.el non-keybinding configuration utilities (setting, hook, and advice helpers)
 - [[https://github.com/emacs-magus/once][once]] - Replaces general.el's deferred evaluation utilities (which were mostly placeholders or unimplemented)
@@ -24,3 +25,4 @@ There are also the obvious packages that like [[https://github.com/seagle0128/do
 
 * Other
 - [[https://github.com/emacs-magus/foundation][foundation]] - My personal setup.el keywords that are not found in other packages (like satch.el and familiar)
+- [[https://github.com/emacs-magus/quicken][quicken]] - "Hacks" to speed up Emacs initialization (meant more to be a template for early-init files and provide potentially useful code to copy into your configuration; will likely never be part of a package archive)
